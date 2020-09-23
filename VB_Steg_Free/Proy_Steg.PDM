@@ -1,0 +1,113 @@
+[Root]
+Most Recent Package=Paquete Xiao 1.9
+
+
+[Package|Paquete Xiao 1.9|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\VB_Steg\Paquete
+
+[Package|Paquete Xiao 1.9|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete Xiao 1.9|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete Xiao 1.9|Files Found]
+
+[Package|Paquete Xiao 1.9|Files Released]
+
+[Package|Paquete Xiao 1.9|Missing Dependency Information]
+C:\WINDOWS\system32\shlwapi.dll=
+
+[Package|Paquete Xiao 1.9|Out-of-Date Dependency Information]
+
+[Package|Paquete Xiao 1.9|Files Added]
+d:\vb_steg\logo.bmp=
+
+[Package|Paquete Xiao 1.9|Files Removed]
+
+[Package|Paquete Xiao 1.9|Files In Project]
+D:\VB_Steg\Proy_Steg.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\shlwapi.dll=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGES.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCES.DLL=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\INETES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\VB_Steg\logo.bmp=Yes
+
+[Package|Paquete Xiao 1.9|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete Xiao 1.9|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete Xiao 1.9|Install Locations]
+D:\VB_Steg\Proy_Steg.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\shlwapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\INETES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\VB_Steg\logo.bmp=$(AppPath)
+
+[Package|Paquete Xiao 1.9|Configure Shared Files]
+Applicable=Yes
+D:\VB_Steg\Proy_Steg.exe=No
+D:\VB_Steg\logo.bmp=No
+
+[Package|Paquete Xiao 1.9|Distribution]
+Type=multi
+Size=720 KB
+Title=Xiao Steganography 1.9
+
+[Package|Paquete Xiao 1.9|IconGroups]
+Group0=Xiao Steganography 1.9
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Paquete Xiao 1.9|Xiao Steganography 1.9]
+Icon1=Proy_Steg.exe
+Title1=Xiao Steganography 1.9
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete Xiao 1.9|Package]
+PackageFolder=D:\VB_Steg\Paquete
+ProjectFolder=D:\VB_Steg
+ServerSideCab=
+File1=D:\VB_Steg\Paquete\setup.exe
+File2=D:\VB_Steg\Paquete\Setup.Lst
+File3=D:\VB_Steg\Paquete\Proy_S1.CAB
+File4=D:\VB_Steg\Paquete\Proy_S2.CAB
+File5=D:\VB_Steg\Paquete\Proy_S3.CAB
+File6=D:\VB_Steg\Paquete\Proy_S4.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
